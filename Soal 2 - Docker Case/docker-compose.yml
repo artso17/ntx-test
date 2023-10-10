@@ -1,0 +1,36 @@
+version: "3"
+services:
+  api:
+    build:
+      context: api/
+    container_name: api
+    ports:     
+      - 6000:6000 # Add port forwarder so the container can be accessed from outside container
+    healthcheck: 
+      # Add healtcheck command
+      test: ["CMD", "curl", "-f", "-X","POST", "api:6000/predict?text=healthy"]
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+      start_interval: 1s
+    networks:
+      - api_etl # Specify explicitly the networks
+      
+
+  etl:
+    build:
+      context: etl/
+    container_name: etl
+    depends_on:
+      api:
+        condition: service_healthy # Specify the condition of api container to service_healthy in order to run the etl container.
+    networks:
+      - api_etl # Specify explicitly the networks
+
+
+# Instantiate the networks
+networks:
+  api_etl:
+    name : api_etl
+
