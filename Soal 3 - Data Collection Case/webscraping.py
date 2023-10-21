@@ -2,6 +2,7 @@ import os
 import json
 import asyncio
 import httpx
+import time
 from bs4 import BeautifulSoup
 from polars import DataFrame
 from tqdm import tqdm 
@@ -82,6 +83,7 @@ async def main():
 
     for task in tasks:
         await task
+    print('The Process Finished')
 
 
 if __name__ == "__main__":

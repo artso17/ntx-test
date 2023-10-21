@@ -15,6 +15,7 @@ Apple.Safari.WebKit.WebCore.AudioArray.Information.Disclosure,https://www.fortig
 Ethernet.IP.Device.Scanner,https://www.fortiguard.com/encyclopedia/ips/49399
 ISF.S7-1200.S7-1500.S7comm.Plus.Scanner,https://www.fortiguard.com/encyclopedia/ips/49385
 ISF.S7-300.S7-400.S7comm.Scanner,https://www.fortiguard.com/encyclopedia/ips/49386
+ISF.CIP.Scanner,https://www.fortiguard.com/encyclopedia/ips/49363
 Magento.Login.Brute.Force,https://www.fortiguard.com/encyclopedia/ips/49300
 Suspicious.PHP.URI.Location,https://www.fortiguard.com/encyclopedia/ips/48951
 Nuclei.Vulnerability.Scanner,https://www.fortiguard.com/encyclopedia/ips/48922
@@ -62,6 +63,7 @@ Nmap.Script.Scanner,https://www.fortiguard.com/encyclopedia/ips/45360
 Nikto.Web.Scanner,https://www.fortiguard.com/encyclopedia/ips/44780
 OpenVAS.Web.Scanner,https://www.fortiguard.com/encyclopedia/ips/44781
 MS.Browser.CVE-2017-11791.Memory.Corruption,https://www.fortiguard.com/encyclopedia/ips/44847
+MS.Office.Word.DDEAUTO.Command.Execution,https://www.fortiguard.com/encyclopedia/ips/44768
 Masscan.Scanner,https://www.fortiguard.com/encyclopedia/ips/44778
 Common.Gateway.Interface.common.cgi.Access,https://www.fortiguard.com/encyclopedia/ips/44678
 MS.Windows.Graphics.Component.Information.Disclosure,https://www.fortiguard.com/encyclopedia/ips/44578
@@ -97,5 +99,3 @@ MS.IE.Hyperlink.Content.Spoofing,https://www.fortiguard.com/encyclopedia/ips/427
 MS.Windows.Kernel.PlgBlt.Privilege.Escalation,https://www.fortiguard.com/encyclopedia/ips/42705
 BREACH.HTTPS.Compression.Information.Disclosure,https://www.fortiguard.com/encyclopedia/ips/42657
 ImageMagick.Image.ephemeral.Pseudo.Protocol.File.Access,https://www.fortiguard.com/encyclopedia/ips/42556
-MS.ASP.NET.ValidateRequest.XSS,https://www.fortiguard.com/encyclopedia/ips/42528
-MS.Win32KFull.Sys.Information.Disclosure,https://www.fortiguard.com/encyclopedia/ips/42378
